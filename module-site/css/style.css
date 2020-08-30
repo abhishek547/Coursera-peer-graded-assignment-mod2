@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+.boxes {
+    float: left;
+    border: 2px solid rgb(49, 44, 54);
+    width: 30%;
+    margin: 16px;
+    background-color: rgb(111, 104, 117);
+}
+
+@media (max-width:992px) {
+    #box-1 {
+        float: left;
+        border: 2px solid rgb(49, 44, 54);
+        width: 45%;
+        margin: 15px;
+        background-color: rgb(111, 104, 117);
+    }
+}
+
+@media (max-width:992px) {
+    #box-2 {
+        float: left;
+        border: 2px solid rgb(49, 44, 54);
+        width: 45%;
+        margin: 15px;
+        background-color: rgb(111, 104, 117);
+    }
+}
+
+@media (max-width:992px) {
+    #box-3 {
+        float: left;
+        border: 2px solid rgb(49, 44, 54);
+        width: 95%;
+        margin: 15px;
+        background-color: rgb(111, 104, 117);
+    }
+}
+
+@media (max-width:768px) {
+    #box-1 {
+        float: left;
+        border: 2px solid rgb(49, 44, 54);
+        width: 96%;
+        margin: 15px;
+        margin: 15px;
+        background-color: rgb(111, 104, 117);
+    }
+}
+
+@media (max-width:768px) {
+    #box-2 {
+        float: left;
+        border: 2px solid rgb(49, 44, 54);
+        width: 96%;
+        margin: 15px;
+        margin: 15px;
+        background-color: rgb(111, 104, 117);
+    }
+}
+
+@media (max-width:768px) {
+    #box-3 {
+        float: left;
+        border: 2px solid rgb(49, 44, 54);
+        width: 96%;
+        margin: 15px;
+        margin: 15px;
+        background-color: rgb(111, 104, 117);
+    }
+}
+
+#primary-heading {
+    margin: 22px auto;
+}
+
+#secondary-heading-1 {
+    width: 100px;
+    float: right;
+    background-color: rgb(26, 180, 26);
+    border: 2px solid rgba(61, 82, 52, 0.692);
+}
+
+#secondary-heading-2 {
+    width: 100px;
+    float: right;
+    background-color: rgb(104, 36, 167);
+    border: 2px solid rgba(61, 82, 52, 0.692);
+}
+
+#secondary-heading-3 {
+    width: 100px;
+    float: right;
+    background-color: rgb(170, 185, 29);
+    border: 2px solid rgba(61, 82, 52, 0.692);
+}
+
+.heading-cont {
+    overflow: hidden;
+}
+
+.para-cont {
+    text-align: justify;
+    padding: 12px;
+}
