@@ -1,0 +1,17 @@
+.navbar {
+    background-color: brown !important;
+}
+
+li {
+    border: 1px solid wheat;
+}
+
+.container {
+    background-color: burlywood;
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 85%;
+    }
+}
